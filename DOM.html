@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="one">Hyper text Mark Up Language</h1>
+    <p>Let's learn about DOM concepts in detail</p>
+    <script>
+        var Res = document.getElementById("one").innerHTML = "Extensible Mark Up Language";
+        document.write(Res);
+        let firstEl = document.querySelector("p");
+        document.write(firstEl);
+
+
+    </script>
+</body>
+
+</html>
